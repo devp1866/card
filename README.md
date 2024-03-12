@@ -1,2 +1,2 @@
 # CARD
-I design a card by using HTML and CSS for my practice.
+I design a card by using **HTML** and **CSS** for my practice.
