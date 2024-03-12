@@ -1,0 +1,62 @@
+body{
+    background-color: grey;
+    padding: 20px 350px;
+    /* display: flex; */
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    background-color: aliceblue;
+    width: 40vw;
+    height: 90vh;
+    margin: 4px;
+    border-radius: 7px;
+}
+.image{
+    padding: 15px;
+}
+.image img{
+    border-radius: 7px;
+}
+.content{
+    padding: 10px 10px;
+}
+.content h1{
+    color: rgb(21, 82, 19);
+    padding: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content p{
+    padding: 5px;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(21, 82, 19);
+}
+.nav{
+    padding: 4px 50px ; /* padding: (top-bottom) (left-right) or (top-right-bottom-left) */
+}
+.nav span{
+    border: 1px solid grey;
+    padding: 8px 20px;
+    border-radius: 14px;
+    font-size:  medium;
+}
+.button{
+    text-align: center;
+    padding: 15px 10px;
+}
+.button button{
+    padding: 15px 45px;
+    border-radius: 15px;
+    border: none;
+    font-weight: 700;
+    background-color: rgb(194, 216, 233);
+    color: rgb(65, 65, 196);
+    cursor: pointer;
+}
+.button button:hover{
+    background-color: rgb(141, 192, 231);
+    color: rgb(3, 3, 46);
+}
